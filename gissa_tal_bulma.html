@@ -31,16 +31,18 @@
             gissningar du gjort.
           </p>
         </span>
-        <span class="is-size-5">
-          Ange din gissning:
-        </span>
-        <div class="field">
-          <div class="control">
-            <input class = "input is-primary type = "text" placeholder = "Enter
-            your input">
+        <div class="columns">
+          <div class="column">
+              <input class="input is-success" type="text" />
+              <p id="antal_gissningar">Antal gissningar: 0</p>
+          </div>
+          <div class="column">
+            <button class="button **is-large is-success is-rounded**">Gissa</button>
+            <p id="gissningstext">Du har ännu inte gissat</p>
+          </div>
+          <div class="column">
+            <button class="button **is-large is-error is-danger">Nollställ</button>
           </div>
         </div>
-      </div>
-    </section>
   </body>
 </html>
